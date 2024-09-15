@@ -75,7 +75,7 @@ export default function Cau2c({ navigation }) {
               <Button
                 title="GENERATE PASSWORD"
                 color="#FFFFFF"
-                onPress={() => navigation.navigate("Cau2c")}
+                onPress={() => navigation.navigate("Tiki")}
               />
             </View>
           </View>
