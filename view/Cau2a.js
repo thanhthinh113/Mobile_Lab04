@@ -31,7 +31,7 @@ export default function Cau2a({navigation}) {
         </View>
         <View style={styles.login}>
           <View style={styles.loginButton}>
-            <Button title="Login"  onPress={()=>navigation.navigate("Cau2c")}></Button>
+            <Button title="Login"  onPress={()=>navigation.navigate("Cau2b")}></Button>
 
           </View>
         </View>

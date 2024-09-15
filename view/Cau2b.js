@@ -1,6 +1,8 @@
+import { useNavigation } from "@react-navigation/native";
 import { Button, Image, SafeAreaView, StyleSheet, Text, TextInput, View } from "react-native";
 
 export default function Cau2b() {
+  const navigation = useNavigation();
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <View style={styles.container}>
@@ -63,7 +65,7 @@ export default function Cau2b() {
         </View>
         <View style={styles.footer}>
           <View style={styles.footerButton}>
-          <Button style={styles.footerButtonContent} title="Gửi" color="#FFFFFF"  onPress={()=>navigation.navigate("Cau2b")}></Button>
+          <Button style={styles.footerButtonContent} title="Gửi" color="#FFFFFF"  onPress={()=>navigation.navigate("Cau2c")}></Button>
 
           </View>
         </View>
